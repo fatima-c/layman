@@ -1,0 +1,342 @@
+body, html {
+    margin: 0px;
+    padding: 0px;
+    font-family: verdana,helvetica;
+    font-size:12px;
+         
+}
+iframe {
+    border: 0 none;
+}
+#pozadina-left{
+    width:100%;
+    background: url(../images/pozadina1.jpg);
+    background-repeat: repeat;
+    position:relative;
+    float:left;
+}
+
+
+#content {
+    width: 1000px;
+    padding-top: 33px;
+    margin:0px auto;
+   
+}
+#top-bar {
+    height: 40px;
+    background:url(../images/top-bar.jpg);
+    background-repeat: repeat;
+    
+}
+.top-navigacija{
+     padding-left:15px;
+
+}
+.top-navigacija li{
+    list-style-type: none;
+    position:relative;
+    float:left;
+    padding-top:10px;
+    padding-right:15px;
+    
+    
+}
+.top-navigacija li a{
+    width:160px;
+    color:#a0a0a0;
+    text-decoration: none;
+    font-style: normal;
+    font-family: arial;
+    font-size:14px;
+}
+
+.hotest{
+    width:535px;
+    position:relative;
+    float:left;
+    padding-top:10px;
+    
+    
+}
+.hotest img{
+    
+    padding-right:15px;
+    padding-left:25px;
+    position:relative;
+   float:left;
+}
+
+.hot_news a {
+    color:#a0a0a0;
+    text-decoration:none;
+    font-style: italic;
+    font-family: georgia;
+    font-size:11px;
+    display:compact;
+    
+    }
+   
+#search-box{
+    background: url(../images/search-box.jpg) no-repeat;
+    width:230px;
+    height: 38px;
+    position:relative;
+    float:right;
+    
+
+}
+#search-box input{
+    background: none;
+    width:170px;
+    margin-top:10px;
+    margin-left:15px;
+    border:0px;
+}
+#menu-bar {
+    height: 130px;
+    background:url(../images/zastava.jpg);
+    position:relative;
+}
+.logo{
+   float:left;
+   position:relative;
+   padding-top: 30px;
+   padding-right:40px;
+   padding-left: 30px;
+}
+#holder {
+    width: 940px;
+    padding: 30px;
+    background: #ededed;
+    float: left;
+}
+#left-holder {
+    width:725px;
+    padding-right: 30px;
+}
+#left-banner {
+    width:725px;
+    height:256px;
+    margin-top:5px;
+    position:relative;
+    background: url(../images/image2.jpg) no-repeat;
+}
+#mali-banner{
+    width:320px;
+    height:85px;
+    padding:15px;
+    background-color: #1e1e1e;
+    color:#e2e2e2;
+    font-family: georgia;
+    font-size:12px;
+    font-weight:lighter;
+    position:absolute;
+    left:40px;
+    bottom:37px;
+}
+#cetiri-mala{
+    width: 725px;
+    height: 281px;
+    padding-top: 13px;
+    padding-bottom: 25px;
+}
+.mali{
+    width:171px;
+    height: 281px;
+    margin-right:13px;
+    position:relative;
+    background: url(../images/mala_bg.jpg) repeat-y; 
+}
+.mali a{
+    color:#153945;
+    font-family: georgia;
+    font-size:12px;
+    font-style: normal;
+    font-weight: bold;
+    
+}
+.mali.zadnji {
+    margin-right: 0px;
+    margin-left: 2px;
+}
+#right-holder {
+    width: 185px;
+    
+}
+#video-bar
+{
+    width:auto;
+    height:28px;
+    background:#ae0002;
+    color:white;
+    padding-left:7px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    padding-top: 7px;
+}
+.img{
+  width:140px;
+  height:120px;
+  display:block;
+  margin:17px auto;   
+}
+.link{
+    width:140px;
+    height:120px;
+    padding-left:17px;
+   }
+  
+   .text{
+     width:140px;
+     padding-top: 17px;
+     color:#757575;
+   }
+.video{
+    width:auto;
+    height:307px;
+}
+
+.crveno-sivo {
+    height: 35px;
+    background: #cacaca;
+    font-size: 14px;
+}
+.crveno-sivo .crveno {
+    height: 17px;
+    background: #ae0002;
+    width: auto;
+    padding: 9px 10px;
+}
+.crveno-sivo .sredina {
+    height: 35px;
+    width: 21px;
+    background: url(../images/strelica.jpg) no-repeat;
+}
+.crveno-sivo .sivo {
+    height: 17px;
+    width: auto;
+    padding: 9px 10px;
+}
+.fl {
+    float: left;
+}
+
+.pos-rel{
+    position:relative;
+}
+
+
+a {
+    color:#042b38;
+    text-decoration: underline;
+    font-style: italic;
+    font-size: 14px;
+    font-family:serif;
+
+
+}
+ul.menu {
+    padding-top:61px;
+    list-style-type: none;
+    
+}
+ul.menu li {
+    float:left;
+    padding:5px;
+    height:23px;
+    width:auto;
+}
+
+ul.menu li.opened {
+    background: url(../images/mala_07.jpg) repeat-x;
+    position:relative;
+    
+}
+ul.menu li a {
+    text-decoration: none;
+    font-style: normal;
+    color:#c8d0d4;
+    font-size: 13px;
+    font-family:verdana;
+       
+}
+
+.news{
+    width: 725px;
+}
+
+.pasus{
+    padding-top:20px;
+    padding-bottom: 30px;
+}
+.pasus-slika{
+    width:170px;
+    height: 130px;
+    padding-right:25px;
+    position: relative;
+    float:left;
+    
+}
+
+.pasus a{
+    color:#989898;
+    text-decoration:none;
+    font-style: normal;
+}
+
+.pasus-text{
+    width: 520px;
+    height:80px;
+    color:#757575;
+    padding-right:10px;
+    padding-bottom:20px;
+}
+ 
+.komentar-tag{
+    width:480px;
+}
+
+
+.komentar-broj{
+    padding-right:25px;
+    font-size:12px;
+   
+    
+}
+.komentar-slika{
+    width:17px; 
+    height: 16px;
+   
+}
+
+.tag
+ {
+     width:418px;
+     font-family: serif;
+     font-size:14px;
+     color:#989898;
+}
+
+
+.linkovi a{
+    color:#2b5e5e;
+    font-family: rockwell;
+    font-weight: bold;
+    text-decoration:underline;
+    font-style: italic;
+}
+
+.prvi-link{
+    padding-left:10px;
+}
+
+.zadnji-link{
+    padding-right:30px;
+}
+
+.face{
+    padding-left:10px;
+    padding-right:5px;
+}
+
